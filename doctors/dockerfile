@@ -4,3 +4,6 @@ COPY app.py .
 RUN pip install flask
 EXPOSE 9098
 CMD ["python", "app.py"]
+
+
+
